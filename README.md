@@ -36,6 +36,6 @@ You can test this application by installing node and typing node server in the t
 >You can contact me via email with any questions: anna@fourmoonstech.com.
 
 
->[Link to Video Walk Through]()
+>[Link to Video Walk Through](https://drive.google.com/file/d/1BtZ9tSqAz5QOtSAF4Mivq5alwIYGf8Ds/view)
 
 > ![Applicatio Screenshot](<Images/Note Taker Screenshot.png>)  
