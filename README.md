@@ -7,7 +7,7 @@
 
 * _What motivates me to do this project? Keeping up with daily to-dos is critical in modern days. It's hard to stay organized given how busy I am. 
 * _Why did I build this application?_ I wanted to learn to build something I can use on a daily basis. 
-* _What did I learn?_  I learned how the user input on the front end is stored on the server. I learned to combine front ens and the back end development. 
+* _What did I learn?_  I learned how the user input on the front end is stored on the server. I learned to combine front ens and the back end development. I used routes to redirect to home html or notes html. I learned how to read, write and delete file. 
 * _What problem does my application solve?_ This application is capable efficiently take notes and securely store them. 
       
 

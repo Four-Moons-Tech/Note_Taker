@@ -3,14 +3,13 @@ const {readFile,writeFile} = require('fs/promises');
 const { v4: uuidv4 } = require('uuid');
 
 
-// GET Route for retrieving all the feedback
+// GET Route for retrieving the notes
 router.get('/', (req, res) =>
   readFile('./db/db.json').then((data) => res.json(JSON.parse(data)))
 );
 
-// POST Route for submitting feedback
+// POST Route for creating a note
 router.post('/', (req, res) => {
-  // Destructuring assignment for the items in req.body
   console.log(req.body)
   const { title, text } = req.body;
 
@@ -18,7 +17,6 @@ router.post('/', (req, res) => {
   if (title && text) {
     // Variable for the object we will save
     const note = {
-      
       title,
       text,
       id: uuidv4(),
